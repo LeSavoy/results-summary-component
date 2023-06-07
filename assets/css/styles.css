@@ -1,0 +1,199 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "HankenGrotesk";
+  src: url("../fonts/HankenGrotesk-VariableFont_wght.ttf");
+  font-weight: 100 1000;
+}
+
+main {
+  min-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "HankenGrotesk";
+  background-color: #f9fafe;
+}
+
+section {
+  width: 300px;
+}
+
+.main__container {
+  display: flex;
+  width: 550px;
+  height: 380px;
+}
+
+.container-1,
+.container-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container-1 {
+  gap: 1.5rem;
+  background: linear-gradient(
+    to bottom,
+    hsl(252, 100%, 67%),
+    hsl(241, 81%, 54%)
+  );
+  border-radius: 20px;
+}
+
+.container-1 h4 {
+  color: hsl(241, 100%, 89%);
+}
+
+.circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  background: linear-gradient(
+    to bottom,
+    hsla(256, 72%, 46%, 1),
+    hsla(241, 72%, 46%, 0)
+  );
+}
+
+.circle__text {
+  color: hsl(241, 100%, 89%);
+  font-size: 13px;
+}
+
+.circle__number {
+  font-size: 3rem;
+  color: hsl(0, 0%, 100%);
+  font-weight: 800;
+}
+
+.great {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: -1rem;
+}
+
+.container__1-paragraph {
+  font-size: 13px;
+  color: hsl(241, 100%, 89%);
+  padding: 0 20px 0 20px;
+  text-align: center;
+}
+
+.container-2 {
+  background-color: #fff;
+  border-radius: 0 20px 20px 0;
+}
+
+.container-2 h4 {
+  font-size: 1.1rem;
+  position: absolute;
+  margin-bottom: 20rem;
+  margin-right: 8.1rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.reaction,
+.memory,
+.verbal,
+.visual {
+  display: flex;
+  align-items: center;
+  width: 210px;
+  height: 45px;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.reaction {
+  background-color: #fff6f5;
+}
+
+.reaction img,
+.memory img,
+.verbal img,
+.visual img {
+  margin: 0 10px 0 10px;
+}
+
+.span__reaction,
+.span__memory,
+.span__verbal,
+.span__visual {
+  font-weight: 500;
+}
+
+.span__reaction,
+.span__memory {
+  margin-right: 40px;
+}
+
+.span__reaction {
+  color: hsl(0, 100%, 67%);
+}
+
+.span__memory {
+  color: hsl(39, 100%, 56%);
+}
+.span__verbal {
+  margin-right: 55px;
+  color: hsl(166, 100%, 37%);
+}
+
+.span__visual {
+  margin-right: 58px;
+  color: hsl(234, 85%, 45%);
+}
+
+.memory {
+  background-color: #fff9ed;
+}
+
+.verbal {
+  background-color: #f8fcfb;
+}
+
+.visual {
+  background-color: #e0e4ff;
+}
+
+.icons__numbers {
+  font-weight: 600;
+}
+
+.energy__color {
+  color: hsl(240, 5%, 52%);
+}
+
+.container-2 button {
+  height: 45px;
+  width: 210px;
+  border-radius: 20px;
+  border: none;
+  background-color: hsl(224, 30%, 27%);
+  color: #fff;
+  font-weight: 600;
+  position: absolute;
+  margin-top: 15.5rem;
+}
+
+.attribution {
+  position: absolute;
+  margin-top: 35rem;
+}
